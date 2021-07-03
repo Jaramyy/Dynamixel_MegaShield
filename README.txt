@@ -79,7 +79,10 @@ ChangeLog:
               int readSpeed(unsigned char ID);
               int readLoad(unsigned char ID);
 
- Bug Reports:
+3/07/2021 - Add funcion 
+              int setGoalAccel(unsigned char ID,unsigned char accel);
+ 
+Bug Reports:
  
  13/06/2013 - CSlope Function "Bad command Error", by filip aka.
 
