@@ -878,7 +878,7 @@ int DynamixelClass::setGoalAccel(unsigned char ID, unsigned char Accel)
     sendData(AX_ACCEL_LENGTH);
     sendData(AX_WRITE_DATA);
     sendData(AX_GOAL_ACCEL);
-    sendData(Accel);
+    sendData(Accel) ;
     sendData(Checksum);
 	waitCom();
 	delayus(TX_DELAY_TIME);
